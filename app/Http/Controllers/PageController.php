@@ -28,6 +28,11 @@ class PageController extends Controller
         return view('pages.about');
     }
 
+    public function rgpd()
+    {
+        return view('pages.rgpd');
+    }
+
     public function contact()
     {
         return view('pages.contact');

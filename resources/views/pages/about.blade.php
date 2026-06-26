@@ -36,11 +36,11 @@
             <div class="col-lg-6">
                 <div class="about-visual position-relative reveal">
                     <div class="about-image-composition">
-                        <img src="https://picsum.photos/seed/team1/500/600.jpg" alt="Notre équipe" class="img-main">
-                        <img src="https://picsum.photos/seed/office1/300/300.jpg" alt="Notre bureau" class="img-sub img-sub-1">
-                        <img src="https://picsum.photos/seed/meeting1/250/250.jpg" alt="Réunion créative" class="img-sub img-sub-2">
+                        <img src="{{ asset('images/About/jien(ia).png') }}" alt="Notre équipe" class="img-main">
+                        <img src="{{ asset('images/About/jien(ia).png') }}" alt="Notre bureau" class="img-sub img-sub-1">
+                        <img src="{{ asset('images/About/jien(ia).png') }}"  alt="Réunion créative" class="img-sub img-sub-2">
                         <div class="experience-badge">
-                            <span class="number">1+</span>
+                            <span class="number">2+</span>
                             <span class="text">Ans d'expérience</span>
                         </div>
                     </div>
@@ -111,25 +111,25 @@
             <div class="col-lg-3 col-md-6">
                 <div class="team-member reveal">
                     <div class="member-img-wrapper">
-                        <img src="https://picsum.photos/seed/jean/400x400.jpg" alt="Jean Dupont" class="member-img">
+                        <img src="{{ asset('images/equipe/jien.jpg') }}" alt="Jie’n" class="member-img">
                         <div class="member-overlay">
                             <div class="member-social">
                                 <a href="#"><i class="bi bi-linkedin"></i></a>
                                 <a href="#"><i class="bi bi-twitter"></i></a>
-                                <a href="#"><i class="bi bi-dribbble"></i></a>
+                                <a href="#"><i class="bi bi-mail"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="member-info text-center mt-3">
-                        <h5 class="text-white">Jean Dupont</h5>
-                        <p class="text-yellow">Directeur Créatif</p>
+                        <h5 class="text-white">Jie’n Zammon</h5>
+                        <p class="text-yellow">Fondatrice et Directrice Créative</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="team-member reveal" data-aos-delay="100">
                     <div class="member-img-wrapper">
-                        <img src="https://picsum.photos/seed/marie/400x400.jpg" alt="Marie Martin" class="member-img">
+                        <img src="https://picsum.photos/seed/marie/400x400.jpg" alt="N'jie Zammon" class="member-img">
                         <div class="member-overlay">
                             <div class="member-social">
                                 <a href="#"><i class="bi bi-linkedin"></i></a>
@@ -139,8 +139,8 @@
                         </div>
                     </div>
                     <div class="member-info text-center mt-3">
-                        <h5 class="text-white">Marie Martin</h5>
-                        <p class="text-yellow">Directrice Stratégie</p>
+                        <h5 class="text-white">N'jie Zammon</h5>
+                        <p class="text-yellow">Web Designer</p>
                     </div>
                 </div>
             </div>
@@ -157,8 +157,8 @@
                         </div>
                     </div>
                     <div class="member-info text-center mt-3">
-                        <h5 class="text-white">Paul Bernard</h5>
-                        <p class="text-yellow">Réalisateur</p>
+                        <h5 class="text-white">Steve</h5>
+                        <p class="text-yellow">Photographe</p>
                     </div>
                 </div>
             </div>
@@ -175,8 +175,8 @@
                         </div>
                     </div>
                     <div class="member-info text-center mt-3">
-                        <h5 class="text-white">Sophie Laurent</h5>
-                        <p class="text-yellow">Web Designer</p>
+                        <h5 class="text-white">Andy</h5>
+                        <p class="text-yellow">Photographe</p>
                     </div>
                 </div>
             </div>
@@ -184,7 +184,9 @@
 
         <div class="text-center mt-5 pt-5 reveal">
             <p class="text-white-50 mb-3">Vous avez le talent pour nous rejoindre ?</p>
-            <a href="#" class="btn-outline-impakt hover-target">Voir les offres</a>
+            <a href="{{ route('contact') }}" class="btn-impakt hover-target text-decoration-none">
+                Voir les offres
+            </a>
         </div>
     </div>
 </section>

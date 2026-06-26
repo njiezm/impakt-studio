@@ -134,21 +134,36 @@
                         <div class="bg-black p-4 rounded-4 h-100">
                             <i class="bi bi-geo-alt fs-1 text-yellow mb-3"></i>
                             <h4 class="text-white">Adresse</h4>
-                            <p class="">97200 Fort-de-France<br>Martinique</p>
+                            <div class="mt-3">
+                                <a href="https://www.google.com/mapsq=Fort-de-France" target="_blank" class="text-white  text-decoration-none">
+                                    97231 Le Robert<br>Martinique
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center reveal" data-aos-delay="100">
                         <div class="bg-black p-4 rounded-4 h-100">
                             <i class="bi bi-telephone fs-1 text-yellow mb-3"></i>
                             <h4 class="text-white">Téléphone</h4>
-                            <p class="">+596 696 74 22 44</p>
+                            <p>
+                                <a href="tel:+596696742244" class="text-white text-decoration-none">
+                                    +596 696 74 22 44
+                                </a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4 text-center reveal" data-aos-delay="200">
                         <div class="bg-black p-4 rounded-4 h-100">
                             <i class="bi bi-envelope fs-1 text-yellow mb-3"></i>
                             <h4 class="text-white">Email</h4>
-                            <p class="">contact@impaktstudio.com<br>hello@impaktstudio.com</p>
+                            <p>
+                                <a href="mailto:contact@impaktstudio.com" class="text-white  text-decoration-none">
+                                    contact@impaktstudio.com
+                                </a><br>
+                                <a href="mailto:hello@impaktstudio.com" class="text-white  text-decoration-none">
+                                    hello@impaktstudio.com
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

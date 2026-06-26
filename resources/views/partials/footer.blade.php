@@ -28,14 +28,45 @@
             </div>
             <div class="col-lg-4 mb-4">
                 <h4 class="font-hand fs-2 text-yellow mb-3">Contact</h4>
-                <p class="mb-2"><i class="bi bi-geo-alt text-yellow me-2"></i> 97231 Le Robert, Martinique</p>
-                <p class="mb-2"><i class="bi bi-telephone text-yellow me-2"></i> +596 696 74 22 44</p>
-                <p class="mb-2"><i class="bi bi-envelope text-yellow me-2"></i> impakt.studio@gmail.com</p>
-            </div>
+                <p class="mb-2">
+                    <i class="bi bi-geo-alt text-yellow me-2"></i>
+                    <a href="https://www.google.com/maps?q=97231+Le+Robert+Martinique"
+                    target="_blank"
+                    class="text-white-50 text-decoration-none hover-target">
+                        97231 Le Robert, Martinique
+                    </a>
+                </p>
+
+                <p class="mb-2">
+                    <i class="bi bi-telephone text-yellow me-2"></i>
+                    <a href="tel:+596696742244"
+                    class="text-white-50 text-decoration-none hover-target">
+                        +596 696 74 22 44
+                    </a>
+                </p>
+
+                <p class="mb-2">
+                    <i class="bi bi-envelope text-yellow me-2"></i>
+                    <a href="mailto:impakt.studio@gmail.com"
+                    class="text-white-50 text-decoration-none hover-target">
+                        impakt.studio@gmail.com
+                    </a>
+                </p>
+ </div>
         </div>
         <hr class="my-4 border-secondary">
+
         <div class="text-center">
-            <p class="mb-0">&copy; {{ date('Y') }} IMPAKT STUDIO - Tous droits réservés</p>
+
+            <p class="mb-2">
+                &copy; {{ date('Y') }} IMPAKT STUDIO - Tous droits réservés
+            </p>
+
+            <a href="{{ route('rgpd') }}"
+                class="text-white-50 text-decoration-none hover-target">
+                    Mentions légales & RGPD
+                </a>
+
         </div>
     </div>
 </footer>

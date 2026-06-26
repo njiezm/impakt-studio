@@ -20,7 +20,7 @@
                         Nous sommes l'arme secrète de votre croissance.
                     </p>
                     <div class="hero-buttons reveal">
-                        <a href="{{ route('services') }}" class="btn-impakt hover-target">Découvrir ce qu'on fait</a>
+                        <a href="{{ route('services') }}" class="btn-impakt hover-target text-decoration-none">Découvrir ce qu'on fait</a>
                         <span class="font-hand fs-3 text-white ms-4">
                             ou <a href="{{ route('contact') }}" class="text-yellow text-decoration-underline hover-target">parlez-nous !</a>
                         </span>
@@ -158,10 +158,10 @@
                         </div>
                     </div>
                     <div class="stat-number-wrapper">
-                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-number" data-target="500">0</span>
                         <span class="stat-plus">+</span>
                     </div>
-                    <p class="stat-label">Devis</p>
+                    <p class="stat-label">Heures de Création</p>
                     <div class="stat-glow"></div>
                 </div>
             </div>
